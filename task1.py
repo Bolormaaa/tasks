@@ -12,3 +12,11 @@ if product<=1000:
 else:
     print(number1+number2)
 20
+
+import os
+
+path = "/user/Bolormaa/task/dkh.py"
+
+os.remove(path)
+
+print("file has been deleted.")
